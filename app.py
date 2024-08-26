@@ -27,5 +27,6 @@ doc.render(context)
 # save the document object as a word file
 doc.save(input_file)
 
+
 # Convert the DOCX file to PDF
 output = pypandoc.convert_file(input_file, 'pdf', outputfile=output_file)
